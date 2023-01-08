@@ -1,0 +1,30 @@
+title: Superior STT
+originalAuthor: Shananas
+game: kh2
+description: Thanks to Zurph for the easy solution to adding a bone to sora. After DA and Zurph let me know a memt edit is better so i have switched to thatI
+assets:
+#sora memt edit
+- name: 03system.bin
+  method: binarc  
+  source:
+  - name: memt
+    method: copy
+    type: List
+    source:
+    - name: memt.list
+#Skateboard
+- name: obj/F_TT010.mset
+  method: copy
+  source:
+  - name: obj/F_TT010_SORA.mset
+    type: internal
+- name: obj/F_TT010_ROXAS.mset
+  method: copy
+  source:
+  - name: obj/F_TT010_SORA.mset
+    type: internal
+#Twilight Thorn
+- method: copy
+  name: obj/B_EX100.mset
+  source:
+  - name: obj/B_EX100.mset
