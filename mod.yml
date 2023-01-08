@@ -12,6 +12,11 @@ assets:
     type: List
     source:
     - name: memt.list
+  - method: copy
+    name: cmd
+    source:
+    - name: cmd.list
+    type: list
 #Skateboard
 - name: obj/F_TT010.mset
   method: copy
