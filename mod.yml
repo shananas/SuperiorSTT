@@ -8,10 +8,11 @@ assets:
   method: binarc  
   source:
   - name: memt
-    method: copy
+    method: listpatch
     type: List
     source:
-    - name: memt.list
+    - name: memt.yml
+      type: memt
   - method: listpatch
     name: cmd
     source:
